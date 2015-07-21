@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="expendableMenu">
+        <attr name="menu_drawable" format="reference" />
+        <attr name="left_drawable" format="integer" />
+        <attr name="right_drawable" format="integer" />
+        <attr name="top_drawable" format="integer" />
+        <attr name="bottom_drawable" format="integer" />
+
+    </declare-styleable>
+</resources>

@@ -1,5 +1,5 @@
 Android menu option with expandable effect.
-
+![](ExpendableMenu.gif)
 ### What this Lib can do :
 
 **1.Menu will expand when user touch it and show menu options.**
@@ -9,9 +9,6 @@ Android menu option with expandable effect.
 **3.You can customize menu icons.**
 
 **4.Customize menu icon.**
-
-![](ExpendableMenu.gif)
-
 # Download
 
 Include `jitpack.io` inside of **root** project `build.gradle`:

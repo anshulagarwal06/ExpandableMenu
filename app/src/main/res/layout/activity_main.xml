@@ -1,6 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -13,9 +13,9 @@
         android:id="@+id/fire_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:top_drawable="@drawable/item_selector"
-        app:bottom_drawable="@drawable/item_selector"
-        app:left_drawable="@drawable/item_selector"
-        app:right_drawable="@drawable/item_selector"/>
+        app:bottom_drawable="@drawable/location_selector"
+        app:left_drawable="@drawable/play_selector"
+        app:right_drawable="@drawable/phone_selector"
+        app:top_drawable="@drawable/camera_selector" />
 
 </RelativeLayout>

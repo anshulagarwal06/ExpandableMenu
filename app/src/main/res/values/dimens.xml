@@ -4,6 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <dimen name="min_size">100dp</dimen>
-    <dimen name="small_radius">20dp</dimen>
-    <dimen name="big_radius">60dp</dimen>
+    <dimen name="small_radius">40dp</dimen>
+    <dimen name="big_radius">100dp</dimen>
 </resources>

@@ -1,4 +1,5 @@
 Android menu option with expandable effect.
+
 ![](ExpendableMenu.gif)
 ### What this Lib can do :
 

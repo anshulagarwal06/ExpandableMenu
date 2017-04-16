@@ -7,7 +7,6 @@
 /build
 /captures
 /.idea
-/gradle
 
 # Built application files
 *.apk
@@ -24,7 +23,6 @@ bin/
 gen/
 
 # Gradle files
-.gradle/
 build/
 /*/build/
 

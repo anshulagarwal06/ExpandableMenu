@@ -75,8 +75,8 @@ public class ExpandableMenuView extends View {
 
         @ColorRes int colorRes = R.color.circle_color;
 
-        @DimenRes int smallRadius = R.dimen.small_radius;
-        @DimenRes int bigRadius = R.dimen.big_radius;
+        @DimenRes int smallRadius = R.dimen.com_expandable_small_radius;
+        @DimenRes int bigRadius = R.dimen.com_expandable_big_radius;
         @DrawableRes int menuDrawable = R.drawable.plus;
         if (attrs != null) {
             TypedArray typedArray = getContext().getTheme().obtainStyledAttributes(
@@ -103,8 +103,8 @@ public class ExpandableMenuView extends View {
                 }
 
                 colorRes = typedArray.getResourceId(R.styleable.expendableMenu_menu_color, R.color.circle_color);
-                smallRadius = typedArray.getResourceId(R.styleable.expendableMenu_menu_radius, R.dimen.small_radius);
-                bigRadius = typedArray.getResourceId(R.styleable.expendableMenu_menu_expanded_radius, R.dimen.big_radius);
+                smallRadius = typedArray.getResourceId(R.styleable.expendableMenu_menu_radius, R.dimen.com_expandable_small_radius);
+                bigRadius = typedArray.getResourceId(R.styleable.expendableMenu_menu_expanded_radius, R.dimen.com_expandable_big_radius);
                 menuDrawable = typedArray.getResourceId(R.styleable.expendableMenu_menu_drawable, R.drawable.plus);
 
             } finally {
@@ -282,8 +282,8 @@ public class ExpandableMenuView extends View {
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
-    //    mCenterDrawable = getResources().getDrawable(R.drawable.item_selector);
-      //  mCenterDrawable.setBounds(0, 0, mCenterDrawable.getIntrinsicWidth(), mCenterDrawable.getIntrinsicHeight());
+        //    mCenterDrawable = getResources().getDrawable(R.drawable.item_selector);
+        //  mCenterDrawable.setBounds(0, 0, mCenterDrawable.getIntrinsicWidth(), mCenterDrawable.getIntrinsicHeight());
     }
 
     @Override

@@ -15,8 +15,10 @@
         android:layout_height="match_parent"
         app:bottom_drawable="@drawable/location_selector"
         app:left_drawable="@drawable/play_selector"
+        app:menu_color="@color/menu_color"
         app:menu_drawable="@drawable/menu_icon"
+        app:menu_expanded_radius="@dimen/big_radius"
+        app:menu_radius="@dimen/small_radius"
         app:right_drawable="@drawable/phone_selector"
         app:top_drawable="@drawable/camera_selector" />
-
 </RelativeLayout>

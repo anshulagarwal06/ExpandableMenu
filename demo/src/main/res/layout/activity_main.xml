@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.anshul.com.expendableMenu.MainActivity">
+
+    <me.anshulagarwal.expandablemenuoption.ExpandableMenuView
+        android:id="@+id/expanded_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:bottom_drawable="@drawable/location_selector"
+        app:left_drawable="@drawable/play_selector"
+        app:menu_drawable="@drawable/menu_icon"
+        app:right_drawable="@drawable/phone_selector"
+        app:top_drawable="@drawable/camera_selector" />
+
+</RelativeLayout>
